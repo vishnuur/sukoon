@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import DashboardSearch from "./dashboardSearch";
 import adminStore from "../../../Services/store/admin";
 import { EyeOutlined, FileAddOutlined } from "@ant-design/icons";
+import moment from "moment";
 
 export default function index() {
   const { treatmentSearchResult } = adminStore((state) => state);
@@ -36,6 +37,7 @@ export default function index() {
       title: "DOB",
       dataIndex: "DOB",
       key: "DOB",
+      render: (text) => <a>{text && moment(text).format("DD-MM-YYYY")}</a>,
     },
     {
       title: "Action",

@@ -37,6 +37,7 @@ export default function index() {
       title: "Description",
       dataIndex: "description",
       key: "description",
+      render: (text) => <a>{text}</a>,
     },
     {
       title: "Acupuncture",
@@ -78,7 +79,7 @@ export default function index() {
 
   useEffect(() => {
     const payload = {
-      registerId: 1,
+      registerId: registerId,
       limitBy: 15,
       page: 1,
     };

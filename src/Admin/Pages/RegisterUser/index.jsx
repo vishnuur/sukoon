@@ -155,10 +155,10 @@ export default function index() {
         <DatePicker
           onChange={onChangeDate}
           name="DOB"
-          value={dayjs(formData?.DOB, "YYYY-MM-DD")}
           style={{ width: "380px", marginBottom: "8px" }}
           format="YYYY-MM-DD"
           inputReadOnly
+          placeholder="Date Of Birth"
         />
 
         <button onClick={() => onSubmit()} disabled={!isFormValid()}>

@@ -164,11 +164,11 @@ export default function index() {
         <DatePicker
           onChange={onChangeDate}
           name="Date"
-          value={dayjs(formData?.date, "YYYY-MM-DD")}
           style={{ width: "380px", marginBottom: "8px" }}
           format="YYYY-MM-DD"
           inputReadOnly
           disabledDate={disabledDate}
+          placeholder="Select Booking Date"
         />
         <CustomDropDown
           options={timeOptions}
