@@ -85,7 +85,6 @@ export default function index() {
     };
     viewTreatmentHistory(payload);
   }, [registerId]);
-  console.log(state, "state");
   return (
     <div className="view-history-container">
       <div className="history-wrap">

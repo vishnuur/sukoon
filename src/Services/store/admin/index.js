@@ -46,7 +46,6 @@ const adminStore = create()((set) => ({
     set({ isLoading: true });
     const result = await userRegister(payload);
     if (result.status) {
-      console.log(result);
       set({ registeredUserId: result.registerId });
       customToast(SUCCESS, result.result);
     } else {

@@ -65,7 +65,6 @@ export default function index() {
   const onSubmit = async () => {
     await registerUser(formData);
   };
-  console.log(registeredUserId, "registeredUserId");
   useEffect(() => {
     if (registeredUserId) {
       navigate(`/admin/booking/${registeredUserId}`);

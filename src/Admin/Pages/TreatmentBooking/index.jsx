@@ -38,8 +38,6 @@ export default function index() {
     });
   };
 
-  console.log(formData, "formdata");
-
   const isFormValid = () => {
     const {
       date,
