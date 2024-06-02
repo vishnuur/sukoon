@@ -1,0 +1,52 @@
+.active {
+  color: rgb(213, 213, 213) !important;
+}
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 12vh !important;
+  transition: all 0.6s ease !important; /* Transition effect for smooth change */
+
+  /* Additional styles for the fixed header */
+  /* Example: background color, box shadow, etc. */
+}
+.bm-overlay {
+  right: 0 !important;
+  top: 0 !important;
+  width: 300px !important;
+  background: unset !important;
+}
+.bm-burger-button {
+  display: none;
+}
+.bm-menu-wrap {
+  right: 0 !important;
+  top: 0 !important;
+  padding: 12px;
+  padding-top: 24px;
+  background: rgb(60, 57, 57) !important;
+}
+.nav-item {
+  cursor: pointer;
+}
+.bm-item-list {
+  height: unset !important;
+}
+.burger-close-menu {
+  position: absolute !important;
+  right: 12px !important;
+  top: 12px;
+  z-index: 100;
+}
+@media (min-width: 700) {
+  .bm-burger-button {
+    display: block;
+  }
+}
+.select-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

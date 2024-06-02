@@ -1,0 +1,65 @@
+.register-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .register-container {
+    background: white;
+    width: 900px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+    border-radius: 32px;
+    position: relative;
+    h2 {
+      font-size: 24px;
+      margin: 0;
+      margin-left: 8px;
+      font-weight: 600;
+    }
+    .arrow-back {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    input {
+      width: 380px;
+    }
+
+    select {
+      width: 380px;
+      margin-bottom: 8px;
+    }
+    button {
+      background-color: #3bec44d5;
+      padding: 8px 8px;
+      border: none;
+      width: 120px;
+      border-radius: 30px;
+      color: white;
+      &:hover {
+        background-color: #66bb6a;
+      }
+      &:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+        opacity: 0.6;
+      }
+      &:disabled:hover {
+        background-color: #cccccc;
+      }
+    }
+  }
+}
