@@ -4596,7 +4596,6 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -4642,7 +4641,6 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -9657,7 +9655,6 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -9723,7 +9720,6 @@ h5,
 }
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
   border-color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
@@ -12338,5 +12334,8 @@ h5,
   }
   .fixed .nav-item a {
     border-color: unset !important;
+  }
+  .logo{
+    padding: unset!important;
   }
 }

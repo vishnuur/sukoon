@@ -72,12 +72,12 @@ export default function ContactScreen() {
             <div className="col-md-3">
               <p>
                 <span>Email:</span>{" "}
-                <a href="mailto:info@yoursite.com">admin@ansaarclinic.com</a>
+                <a href="mailto:info@yoursite.com">admin@sukoonclinic.com</a>
               </p>
             </div>
             <div className="col-md-3">
               <p>
-                <span>Website</span> <a href="#">www.ansaarclinic.com</a>
+                <span>Website</span> <a href="#">www.sukoonclinic.com</a>
               </p>
             </div>
           </div>

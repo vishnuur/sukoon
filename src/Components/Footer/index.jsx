@@ -9,9 +9,9 @@ export default function FooterComponent() {
           <div className="row mb-5">
             <div className="col-md-3">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">Ansaar Clinic.</h2>
+                <h2 className="ftco-heading-2">Sukoon Clinic.</h2>
                 <p>
-                  Ansaar clinic is dedicated to providing the highest quality of
+                  Sukoon clinic is dedicated to providing the highest quality of
                   care for our patients. We use a combination of traditional
                   acupuncture techniques and modern technology to deliver
                   personalized treatment plans that are tailored to your unique
@@ -115,7 +115,7 @@ export default function FooterComponent() {
                     <li>
                       <a href="#">
                         <span className="icon icon-envelope"></span>
-                        <span className="text">admin@ansaarclinic.com</span>
+                        <span className="text">admin@clinic.com</span>
                       </a>
                     </li>
                   </ul>
@@ -128,7 +128,7 @@ export default function FooterComponent() {
               <p>
                 Copyright &copy;
                 <script>document.write(new Date().getFullYear());</script> All
-                rights reserved Ansaar Clinic | This website is made with{" "}
+                rights reserved Sukoon Clinic | This website is made with{" "}
                 <i className="icon-heart" aria-hidden="true"></i> by{" "}
                 <a target="_blank">NilaTech</a>{" "}
               </p>

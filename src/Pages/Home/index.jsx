@@ -13,6 +13,7 @@ import galleryBg1 from "../../assets/images/gallery/1.jpg";
 import galleryBg2 from "../../assets/images/gallery/2.jpg";
 import galleryBg3 from "../../assets/images/gallery/3.jpg";
 import galleryBg4 from "../../assets/images/gallery/4.jpg";
+import { MdOutlineWhatsapp } from "react-icons/md";
 
 import "./index.css";
 import { Link } from "react-router-dom";
@@ -34,6 +35,13 @@ export default function Home() {
     autoplaySpeed: 2000,
     pauseOnHover: false,
   };
+
+  const openWhatsApp = () => {
+    const phoneNumber = "7559966277";
+    const message = "Hello, I would like to talk to you!";
+    window.open(`https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`)
+  };
+
   return (
     <div>
       <div className="slider-wrap">
@@ -53,11 +61,15 @@ export default function Home() {
                     anxiety, and depression.
                   </p>
                   <a
-                    onClick={() => setisModalOpen(true)}
+                    onClick={() => {
+                      // setisModalOpen(true);
+                      openWhatsApp();
+                    }}
                     style={{ color: "white" }}
                     className="btn btn-primary px-4 py-3 make-appoinment-btn"
                   >
-                    Make an Appointment
+                    <MdOutlineWhatsapp size={32} />
+                    &nbsp;Make an Appointment
                   </a>
                 </div>
               </div>
@@ -78,11 +90,15 @@ export default function Home() {
                     issues.
                   </p>
                   <a
-                    onClick={() => setisModalOpen(true)}
+                    onClick={() => {
+                      // setisModalOpen(true);
+                      openWhatsApp();
+                    }}
                     style={{ color: "white" }}
                     className="btn btn-primary px-4 py-3 make-appoinment-btn"
                   >
-                    Make an Appointment
+                    <MdOutlineWhatsapp size={32} />
+                    &nbsp;Make an Appointment
                   </a>
                 </div>
               </div>
@@ -102,11 +118,15 @@ export default function Home() {
                     with needle therapy to enhance the healing process.{" "}
                   </p>
                   <a
-                    onClick={() => setisModalOpen(true)}
+                    onClick={() => {
+                      // setisModalOpen(true);
+                      openWhatsApp()
+                    }}
                     className="btn btn-primary px-4 py-3 make-appoinment-btn"
                     style={{ color: "white" }}
                   >
-                    Make an Appointment
+                    <MdOutlineWhatsapp size={32} />
+                    &nbsp;Make an Appointment
                   </a>
                 </div>
               </div>
@@ -117,12 +137,12 @@ export default function Home() {
       <section className="ftco-intro">
         <div className="container">
           <div className="row no-gutters">
-            <div className="col-md-3 color-1 p-4">
+            <div className="col-md-6 color-1 p-4">
               <h3 className="mb-4">Emergency Cases</h3>
               <p>Please contact Us</p>
               <span className="phone-number"> +960 915-4433</span>
             </div>
-            <div className="col-md-3 color-2 p-4">
+            <div className="col-md-6 color-2 p-4">
               <h3 className="mb-4">Opening Hours</h3>
               <p className="openinghours d-flex">
                 <span>Monday - Thursday</span>
@@ -137,7 +157,7 @@ export default function Home() {
                 <span>10:00 - 16:00</span>
               </p>
             </div>
-            <div className="col-md-6 color-3 p-4">
+            {/* <div className="col-md-6 color-3 p-4">
               <h3 className="mb-2">Make an Appointment</h3>
               <form action="#" className="appointment-form">
                 <div className="row">
@@ -285,7 +305,7 @@ export default function Home() {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -400,7 +420,7 @@ export default function Home() {
                   <div className="text">
                     <h3>Well Experience Doctors</h3>
                     <p>
-                      At Ansaar Clinic, our team of well-experienced doctors is
+                      At Sukoon Clinic, our team of well-experienced doctors is
                       dedicated to providing the highest level of care in
                       acupuncture. With many years of training and practical
                       experience, our doctors have a deep understanding of the
@@ -416,7 +436,7 @@ export default function Home() {
                   <div className="text">
                     <h3>High Technology Facilities</h3>
                     <p>
-                      At Ansaar Clinic, we are dedicated to providing our
+                      At Sukoon Clinic, we are dedicated to providing our
                       patients with the latest and most advanced technologies in
                       acupuncture care. Our state-of-the-art facilities are
                       equipped with the latest tools and equipment, ensuring
@@ -432,7 +452,7 @@ export default function Home() {
                   <div className="text">
                     <h3>Comfortable Clinic</h3>
                     <p>
-                      At Ansaar Clinic, we understand that comfort is an
+                      At Sukoon Clinic, we understand that comfort is an
                       essential part of the healing process. That's why we've
                       designed our clinic to be a warm and welcoming place where
                       patients can relax and feel at ease.
@@ -681,7 +701,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6 pr-md-5 aside-stretch py-5 choose">
               <div className="heading-section heading-section-white mb-5 ftco-animate">
-                <h2 className="mb-2">Ansaar Clinic Acupuncture &amp; Hijama</h2>
+                <h2 className="mb-2">Sukoon Clinic Acupuncture &amp; Hijama</h2>
               </div>
               <div className="ftco-animate">
                 <p>
@@ -711,7 +731,7 @@ export default function Home() {
               </div>
               <form action="#" className="ftco-animate">
                 <div className="row">
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="form-group">
                       <input
                         type="text"
@@ -758,13 +778,14 @@ export default function Home() {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-md-12">
                     <div className="form-group">
                       <input
-                        type="submit"
+                        // type="submit"
                         value="Make an appointment"
                         className="btn btn-primary py-3 px-5"
+                        onClick={openWhatsApp}
                       />
                     </div>
                   </div>

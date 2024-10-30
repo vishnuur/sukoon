@@ -224,7 +224,7 @@ export default function About() {
                   <div className="text">
                     <h3>Well Experience Doctors</h3>
                     <p>
-                      At Ansaar Clinic, our team of well-experienced doctors is
+                      At Sukoon Clinic, our team of well-experienced doctors is
                       dedicated to providing the highest level of care in
                       acupuncture. With many years of training and practical
                       experience, our doctors have a deep understanding of the
@@ -240,7 +240,7 @@ export default function About() {
                   <div className="text">
                     <h3>High Technology Facilities</h3>
                     <p>
-                      At Ansaar Clinic, we are dedicated to providing our
+                      At Sukoon Clinic, we are dedicated to providing our
                       patients with the latest and most advanced technologies in
                       acupuncture care. Our state-of-the-art facilities are
                       equipped with the latest tools and equipment, ensuring
@@ -256,7 +256,7 @@ export default function About() {
                   <div className="text">
                     <h3>Comfortable Clinic</h3>
                     <p>
-                      At Ansaar Clinic, we understand that comfort is an
+                      At Sukoon Clinic, we understand that comfort is an
                       essential part of the healing process. That's why we've
                       designed our clinic to be a warm and welcoming place where
                       patients can relax and feel at ease.
@@ -292,7 +292,7 @@ export default function About() {
                     </div>
                     <div className="text text-center">
                       <p className="mb-5">
-                        I recently visited Ansaar Clinic for acupuncture and
+                        I recently visited Sukoon Clinic for acupuncture and
                         hijama treatments, and I am so grateful for the
                         experience. From the moment I walked in, I was welcomed
                         by the warm and knowledgeable staff who put me at ease
@@ -315,7 +315,7 @@ export default function About() {
                     </div>
                     <div className="text text-center">
                       <p className="mb-5">
-                        I would highly recommend Ansaar Clinic to anyone seeking
+                        I would highly recommend Sukoon Clinic to anyone seeking
                         acupuncture and hijama treatments. The combination of
                         expert care, high-quality facilities, and a comfortable
                         environment make it the perfect place for anyone looking
@@ -339,7 +339,7 @@ export default function About() {
                     <div className="text text-center">
                       <p className="mb-5">
                         What I appreciated the most about my experience at
-                        Ansaar Clinic was the level of care and attention I
+                        Sukoon Clinic was the level of care and attention I
                         received from the staff. They took the time to listen to
                         my concerns, answer my questions, and provide emotional
                         support. They were truly dedicated to helping me achieve
@@ -384,7 +384,7 @@ export default function About() {
                     </div>
                     <div className="text text-center">
                       <p className="mb-5">
-                        I recently visited Ansaar Clinic for acupuncture and
+                        I recently visited Sukoon Clinic for acupuncture and
                         hijama treatments, and I couldn't be happier with my
                         experience. From the moment I walked in, I was greeted
                         by a friendly and professional staff, who made me feel

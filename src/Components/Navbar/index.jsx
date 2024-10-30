@@ -5,6 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Modal } from "antd";
 import { slide as Menu } from "react-burger-menu";
 import AppointmentModal from "../SubmitModal";
+import { MdOutlineWhatsapp } from "react-icons/md";
 
 export default function Navbar() {
   const { pathname } = useLocation();
@@ -54,7 +55,13 @@ export default function Navbar() {
     setburgerMenuVisible(false);
     navigate(path);
   };
-  console.log(burgerMenuVisible, "burgerMenuVisible");
+
+  const openWhatsApp = () => {
+    const phoneNumber = "7559966277";
+    const message = "Hello, I would like to talk to you!";
+    window.open(`https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`)
+  };
+
   return (
     <nav
       className={`navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ${
@@ -68,6 +75,7 @@ export default function Navbar() {
           className="navbar-toggler"
           type="button"
           onClick={() => setburgerMenuVisible(true)}
+          style={{color:!isFixed?"white":"black"}}
         >
           <span className="oi oi-menu"></span> Menu
         </button>
@@ -118,9 +126,15 @@ export default function Navbar() {
               <a
                 className="nav-link"
                 data-toggle="modal"
-                onClick={handleModalOpen}
+                onClick={() => {
+                  openWhatsApp();
+                  // handleModalOpen();
+                }}
               >
-                <span>Make an Appointment </span>
+                <span>
+                  <MdOutlineWhatsapp size={32} />
+                  &nbsp;Make an Appointment
+                </span>
               </a>
             </li>
           </ul>
@@ -183,9 +197,15 @@ export default function Navbar() {
             <a
               className="nav-link"
               data-toggle="modal"
-              onClick={handleModalOpen}
+              onClick={() => {
+                // handleModalOpen();
+                openWhatsApp();
+              }}
             >
-              <span>Make an Appointment </span>
+              <span>
+                <MdOutlineWhatsapp size={32} />
+                &nbsp;Make an Appointment
+              </span>
             </a>
           </li>
         </ul>
