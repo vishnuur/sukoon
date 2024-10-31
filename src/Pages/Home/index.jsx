@@ -39,7 +39,9 @@ export default function Home() {
   const openWhatsApp = () => {
     const phoneNumber = "7559966277";
     const message = "Hello, I would like to talk to you!";
-    window.open(`https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`)
+    window.open(
+      `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`
+    );
   };
 
   return (
@@ -120,7 +122,7 @@ export default function Home() {
                   <a
                     onClick={() => {
                       // setisModalOpen(true);
-                      openWhatsApp()
+                      openWhatsApp();
                     }}
                     className="btn btn-primary px-4 py-3 make-appoinment-btn"
                     style={{ color: "white" }}
@@ -781,12 +783,15 @@ export default function Home() {
                   </div> */}
                   <div className="col-md-12">
                     <div className="form-group">
-                      <input
+                      <button
                         // type="submit"
                         value="Make an appointment"
                         className="btn btn-primary py-3 px-5"
                         onClick={openWhatsApp}
-                      />
+                      >
+                        <MdOutlineWhatsapp size={32} />
+                        &nbsp; Make an appointment
+                      </button>
                     </div>
                   </div>
                 </div>
