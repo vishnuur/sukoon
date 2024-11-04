@@ -38,10 +38,20 @@ export default function Home() {
 
   const openWhatsApp = () => {
     const phoneNumber = "7559966277";
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     const message = "Hello, I would like to talk to you!";
-    window.open(
-      `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`
-    );
+    if (isMobile) {
+      // Try to open the WhatsApp app on mobile devices
+      window.location.href = `whatsapp://send?phone=${phoneNumber}`;
+    } else {
+      // Fallback to WhatsApp Web for non-mobile devices
+      window.open(
+        `https://web.whatsapp.com/send?phone=${phoneNumber}`,
+        "_blank"
+      );
+    }
+
+    // window.open(`https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}&app_absent=0`)
   };
 
   return (
