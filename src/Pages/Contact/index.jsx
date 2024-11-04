@@ -60,13 +60,13 @@ export default function ContactScreen() {
             <div className="w-100"></div>
             <div className="col-md-3">
               <p>
-                <span>Address:</span> Lot NO 10531 Ranauraa Magu Hulhumale,
-                Malidives
+                <span>Address:</span> Sukoon clinic, Hulhumale face 1, chanbeylee magu-6, Lot
+                11180 (Lubaan)
               </p>
             </div>
             <div className="col-md-3">
               <p>
-                <span>Phone:</span> <a href="tel://1234567920">+960 915-4433</a>
+                <span>Phone:</span> <a href="tel://1234567920">+960 9787696</a>
               </p>
             </div>
             <div className="col-md-3">

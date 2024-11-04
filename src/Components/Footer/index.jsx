@@ -103,13 +103,14 @@ export default function FooterComponent() {
                     <li>
                       <span className="icon icon-map-marker"></span>
                       <span className="text">
-                        Lot NO 10531 Ranauraa Magu Hulhumale, Malidives
+                        Sukoon clinic, Hulhumale face 1, chanbeylee magu-6, Lot
+                        11180 (Lubaan)
                       </span>
                     </li>
                     <li>
                       <a href="#">
                         <span className="icon icon-phone"></span>
-                        <span className="text">+960 915-4433</span>
+                        <span className="text">+960 9787696</span>
                       </a>
                     </li>
                     <li>
