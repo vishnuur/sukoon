@@ -115,3 +115,11 @@
 .home-datepicker .ant-picker .ant-picker-suffix {
   color: white !important;
 }
+@media (max-width: 768px) {
+  .slider-wrap h1 {
+    font-size: 32px!important;
+  }
+  .single-carousel .container {
+    top: 12vh!important;
+    }
+}
