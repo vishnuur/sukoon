@@ -148,7 +148,7 @@ export default function Home() {
             <div className="col-md-6 color-1 p-4">
               <h3 className="mb-4">Emergency Cases</h3>
               <p>Please contact Us</p>
-              <span className="phone-number"> +960 915-4433</span>
+              <span className="phone-number"> +960 9787696</span>
             </div>
             <div className="col-md-6 color-2 p-4">
               <h3 className="mb-4">Opening Hours</h3>
