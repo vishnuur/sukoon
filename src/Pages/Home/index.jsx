@@ -473,8 +473,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="ftco-section ftco-services"></section>
-      <section
+      {/* <section className="ftco-section ftco-services"></section> */}
+      {/* <section
         className="ftco-section ftco-counter img"
         id="section-counter"
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -534,7 +534,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="ftco-section">
         <div className="container">

@@ -401,7 +401,7 @@ export default function About() {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="ftco-section ftco-counter img"
         id="section-counter"
         style={{ backgroundImage: `url(${bg3})` }}
@@ -461,7 +461,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

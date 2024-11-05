@@ -216,7 +216,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="ftco-section ftco-counter img"
         id="section-counter"
         style={{ backgroundImage: ` url(${bg1})` }}
@@ -279,7 +279,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="ftco-section">
         <div className="container">
